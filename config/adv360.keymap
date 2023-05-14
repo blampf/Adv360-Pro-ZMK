@@ -45,16 +45,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        l_th_cl {
-            bindings = <&kp LA(LS(LCTRL))>;
-            key-positions = <74 73>;
-        };
-
-        r_th_cl {
-            bindings = <&kp LS(LA(LCTRL))>;
-            key-positions = <77 78>;
-        };
     };
 
     keymap {
@@ -62,11 +52,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL       &kp N1       &kp N2      &kp N3      &kp N4  &kp N5      &tog 1                                                                                                  &mo 3  &kp N6      &kp N7      &kp N8       &kp N9               &kp N0  &kp MINUS
-  &kp TAB        &kp Q        &kp W       &kp E       &kp R   &kp T       &none                                                                                                  &none   &kp Y       &kp U       &kp I        &kp O                &kp P   &kp BSLH
-  &kp ESC  &hm LSHFT A  &hm LCTRL S  &hm LALT D  &hm LGUI F   &kp G     &kp TAB                   &kp ESC   &kp LALT  &none  &none   &kp RALT                     &kp ESC        &none   &kp H  &hm RGUI J  &hm RALT K  &hm RCTRL L  &hm RSHFT SEMICOLON    &kp SQT
-&sk LSHFT        &kp Z        &kp X       &kp C       &kp V   &kp B       &none                     &none  &kp LCTRL  &none  &none  &kp RCTRL                       &none        &none   &kp N       &kp M   &kp COMMA      &kp DOT             &kp FSLH  &sk RSHFT
-    &mo 2    &kp GRAVE     &kp CAPS    &kp LEFT   &kp RIGHT          &lt 2 BSPC  &mt LS(LA(LC(LGUI))) TAB   &kp LGUI                 &kp LGUI  &mt LS(LA(LC(LGUI))) ENTER  &lt 2 SPACE              &kp UP    &kp DOWN     &kp LBKT             &kp RBKT      &mo 2
+&kp EQUAL     &kp N1    &kp N2       &kp N3       &kp N4  &kp N5             &tog 1                                                                                              &mo 3  &kp N6       &kp N7       &kp N8    &kp N9         &kp N0  &kp MINUS
+  &kp TAB      &kp Q     &kp W        &kp E        &kp R   &kp T  &kp LS(LA(LCTRL))                                                                                  &kp LS(LA(LCTRL))   &kp Y        &kp U        &kp I     &kp O          &kp P   &kp BSLH
+  &kp ESC      &kp A     &kp S  &hm LCTRL D  &hm LSHFT F   &kp G            &kp ESC  &kp LS(LA(LC(LGUI)))   &kp LALT  &none  &none   &kp RALT  &kp LS(LA(LC(LGUI)))            &kp ESC   &kp H  &hm RSHFT J  &hm RCTRL K     &kp L  &kp SEMICOLON    &kp SQT
+&sk LSHFT      &kp Z     &kp X        &kp C        &kp V   &kp B              &none                 &none  &kp LCTRL  &none  &none  &kp RCTRL                 &none              &none   &kp N        &kp M    &kp COMMA   &kp DOT       &kp FSLH  &sk RSHFT
+    &mo 2  &kp GRAVE  &kp CAPS     &kp LEFT    &kp RIGHT              &mt LGUI BSPC          &mt LALT TAB      &mo 2                    &mo 2        &mt RALT ENTER     &mt RGUI SPACE               &kp UP     &kp DOWN  &kp LBKT       &kp RBKT      &mo 2
             >;
         };
 
