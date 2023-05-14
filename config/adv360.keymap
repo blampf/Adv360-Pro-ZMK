@@ -46,9 +46,14 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
-            bindings = <&kp ESC>;
+        l_th_cl {
+            bindings = <&kp F16>;
             key-positions = <74 73>;
+        };
+
+        r_th_cl {
+            bindings = <&kp F16>;
+            key-positions = <77 78>;
         };
     };
 
