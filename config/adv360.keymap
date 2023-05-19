@@ -120,11 +120,11 @@
 
         app_launcher {
             bindings = <
-&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans  &trans  &trans
-&trans  &trans  &kp LS(LG(COMMA))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans              &trans  &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &doubletap_M  &trans  &kp LS(LG(PERIOD))  &trans  &trans
-&trans  &trans             &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                &trans  &trans              &trans  &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans            &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans            &trans  &trans
+&trans  &trans  &kp LS(LG(COMMA))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans              &trans            &trans  &trans
+&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &doubletap_M  &trans  &kp LS(LG(PERIOD))    &kp LG(LC(UP))  &trans
+&trans  &trans             &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                &trans  &trans              &trans  &kp LG(LC(DOWN))  &trans
             >;
         };
     };
