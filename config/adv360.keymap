@@ -59,6 +59,26 @@
                 <&kp LS(LG(M))>,
                 <&kp LS(LG(L))>;
         };
+        dbl_lshft_caps: dbl_lshft_caps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DBL_LSHFT_CAPS";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LSHFT>,
+                <&kp CAPS>;
+        };
+        stickytap_layerhold: stickytap_layerhold {
+            compatible = "zmk,behavior-hold-tap";
+            label = "STICKYTAP_LAYERHOLD";
+            bindings =
+                <&mo>,
+                <&sk>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <198>;
+            flavor = "tap-preferred";
+            quick-tap-ms = <175>;
+        };
     };
 
     combos {
@@ -80,11 +100,11 @@
 
         default_layer {
             bindings = <
-           &kp ESCAPE     &kp N1    &kp N2    &kp N3                 &kp N4  &kp N5     &tog 1                                                                              &mo 3  &kp N6                 &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
-              &kp TAB      &kp Q     &kp W     &kp E                  &kp R   &kp T  &kp LG(X)                                                                          &kp LG(C)   &kp Y                  &kp U      &kp I     &kp O          &kp P   &kp BSLH
- &kp LS(LA(LC(LGUI)))      &kp A     &kp S     &kp D                  &kp F   &kp G  &kp LG(V)        &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL    &kp LG(SPACE)  &kp LG(LA(V))   &kp H                  &kp J      &kp K     &kp L  &kp SEMICOLON    &kp SQT
-            &kp LSHFT      &kp Z     &kp X     &kp C                  &kp V   &kp B      &none          &none   &kp LALT  &none  &none   &kp RALT            &none          &none   &kp N                  &kp M  &kp COMMA   &kp DOT         &kp UP  &kp RSHFT
-&tap_sticky_layer 2 4  &kp GRAVE  &kp CAPS  &kp LEFT  &tap_sticky_layer 2 4           &kp BSPC  &hm LSHFT TAB   &kp LGUI                 &kp RGUI  &hm RSHFT ENTER      &kp SPACE          &tap_sticky_layer 2 4   &kp DOWN  &kp LEFT       &kp DOWN  &kp RIGHT
+          &kp ESCAPE     &kp N1    &kp N2    &kp N3         &kp N4  &kp N5     &tog 1                                                                              &mo 3  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0                        &kp MINUS
+             &kp TAB      &kp Q     &kp W     &kp E          &kp R   &kp T  &kp LG(X)                                                                          &kp LG(C)   &kp Y   &kp U      &kp I     &kp O          &kp P                         &kp BSLH
+&kp LS(LA(LC(LGUI)))      &kp A     &kp S     &kp D          &kp F   &kp G  &kp LG(V)        &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL    &kp LG(SPACE)  &kp LG(LA(V))   &kp H   &kp J      &kp K     &kp L  &kp SEMICOLON                          &kp SQT
+     &dbl_lshft_caps      &kp Z     &kp X     &kp C          &kp V   &kp B      &none          &none   &kp LALT  &none  &none   &kp RALT            &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT      &kp SLASH                        &kp RSHFT
+               &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp LG(TILDE)           &kp BSPC  &hm LSHFT TAB   &kp LGUI                 &kp RGUI  &hm RSHFT ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LEFT      &kp RIGHT  &stickytap_layerhold 2 LS(LGUI)
             >;
         };
 
@@ -120,11 +140,11 @@
 
         app_launcher {
             bindings = <
-&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans            &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans  &trans              &trans            &trans  &trans
-&trans  &trans  &kp LS(LG(COMMA))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans              &trans            &trans  &trans
-&trans  &trans             &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &doubletap_M  &trans  &kp LS(LG(PERIOD))    &kp LG(LC(UP))  &trans
-&trans  &trans             &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                &trans  &trans              &trans  &kp LG(LC(DOWN))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans         &trans  &trans              &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans         &trans  &trans              &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans              &trans            &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LG(LS(M))  &trans  &kp LS(LG(PERIOD))    &kp LG(LC(UP))  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                 &trans  &trans              &trans  &kp LG(LC(DOWN))  &trans
             >;
         };
     };
