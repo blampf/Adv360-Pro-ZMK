@@ -140,7 +140,7 @@
 &trans                &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans          &trans             &trans              &trans  &trans  &trans
 &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans             &trans       &kp LS(LG(L))  &trans  &trans
 &trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &kp LG(LS(M))  &kp LS(LG(COMMA))  &kp LS(LG(PERIOD))  &trans  &trans
-&trans                &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &kp LS(LG(UP))   &kp LS(LG(DOWN))              &trans  &trans  &trans
+&trans                &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &kp LG(LC(UP))   &kp LG(LC(DOWN))              &trans  &trans  &trans
             >;
         };
     };
