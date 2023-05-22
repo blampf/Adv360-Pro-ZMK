@@ -107,11 +107,11 @@
 
         default_layer {
             bindings = <
-       &kp ESCAPE     &kp N1    &kp N2    &kp N3         &kp N4  &kp N5     &tog 1                                                                                                      &mo 3  &kp N6  &kp N7     &kp N8    &kp N9         &kp N0  &kp MINUS
-          &kp TAB      &kp Q     &kp W     &kp E          &kp R   &kp T  &kp LG(X)                                                                                                  &kp LG(C)   &kp Y   &kp U      &kp I     &kp O          &kp P   &kp BSLH
-&kp LS(LA(LCTRL))      &kp A     &kp S     &kp D          &kp F   &kp G  &kp LG(V)                                 &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL   &kp LG(SPACE)  &kp LG(LA(V))   &kp H   &kp J      &kp K     &kp L  &kp SEMICOLON    &kp SQT
-        &kp LSHFT      &kp Z     &kp X     &kp C          &kp V   &kp B      &none                                   &none   &kp LALT  &none  &none   &kp RALT           &none          &none   &kp N   &kp M  &kp COMMA   &kp DOT      &kp SLASH  &kp RSHFT
-            &sl 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp LG(GRAVE)           &kp BSPC  &kphold_stickylayer LS(LA(LC(LGUI))) 2   &kp LGUI                 &kp RGUI  &hm RALT ENTER      &kp SPACE          &kp UP   &kp DOWN  &kp LEFT      &kp RIGHT      &sl 4
+       &kp ESCAPE     &kp N1       &kp N2      &kp N3         &kp N4  &kp N5     &tog 1                                                                                                                              &mo 3  &kp N6      &kp N7          &kp N8            &kp N9         &kp N0  &kp MINUS
+          &kp TAB      &kp Q        &kp W       &kp E          &kp R   &kp T  &kp LG(X)                                                                                                                          &kp LG(C)   &kp Y       &kp U           &kp I             &kp O          &kp P   &kp BSLH
+&sk LS(LA(LCTRL))      &kp A        &kp S       &kp D          &kp F   &kp G  &kp LG(V)                                 &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL                           &kp LG(SPACE)  &kp LG(LA(V))   &kp H       &kp J           &kp K             &kp L  &kp SEMICOLON    &kp SQT
+        &kp LSHFT      &kp Z  &hm LCTRL X  &hm LALT C     &hm LGUI V   &kp B      &none                                   &none   &kp LALT  &none  &none   &kp RALT                                   &none          &none   &kp N  &hm RGUI M  &hm RALT COMMA  &hm RCTRL PERIOD      &kp SLASH  &kp RSHFT
+            &sl 2  &kp GRAVE     &kp CAPS    &kp LEFT  &kp LG(GRAVE)           &kp BSPC  &kphold_stickylayer LS(LA(LC(LGUI))) 2   &kp LGUI                 &kp RGUI  &kphold_stickylayer LS(LA(LC(LGUI))) 2      &kp SPACE              &kp UP        &kp DOWN          &kp LEFT      &kp RIGHT      &sl 4
             >;
         };
 
