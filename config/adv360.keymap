@@ -123,11 +123,11 @@
 
         default_layer {
             bindings = <
-       &kp ESCAPE     &kp N1    &kp N2                &kp N3         &kp N4  &kp N5     &tog 1                                                                           &mo 3  &kp N6  &kp N7     &kp N8      &kp N9         &kp N0  &kp MINUS
-          &kp TAB      &kp Q     &kp W                 &kp E          &kp R   &kp T      &none                                                                 &copy_cut_dance   &kp Y   &kp U      &kp I       &kp O          &kp P   &kp BSLH
-&sk LS(LA(LCTRL))      &kp A     &kp S                 &kp D          &kp F   &kp G  &kp LG(Z)    &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL   &kp LG(SPACE)        &kp LG(V)   &kp H   &kp J      &kp K       &kp L  &kp SEMICOLON    &kp SQT
-        &kp LSHFT      &kp Z     &kp X                 &kp C          &kp V   &kp B      &none      &none   &kp LALT  &none  &none   &kp RALT           &none            &none   &kp N   &kp M  &kp COMMA  &kp PERIOD      &kp SLASH  &kp RSHFT
-            &sl 2  &kp GRAVE  &kp CAPS  &kp LS(LA(LC(LGUI)))  &kp LG(GRAVE)           &kp BSPC  &lt 2 TAB   &kp LGUI                 &kp RGUI  &hm RALT ENTER        &kp SPACE          &kp UP   &kp DOWN    &kp LEFT      &kp RIGHT      &sl 4
+       &kp ESCAPE     &kp N1    &kp N2                &kp N3         &kp N4  &kp N5          &tog 1                                                                           &mo 3  &kp N6  &kp N7     &kp N8      &kp N9         &kp N0  &kp MINUS
+          &kp TAB      &kp Q     &kp W                 &kp E          &kp R   &kp T           &none                                                                 &copy_cut_dance   &kp Y   &kp U      &kp I       &kp O          &kp P   &kp BSLH
+&sk LS(LA(LCTRL))      &kp A     &kp S                 &kp D          &kp F   &kp G       &kp LG(Z)    &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL   &kp LG(SPACE)        &kp LG(V)   &kp H   &kp J      &kp K       &kp L  &kp SEMICOLON    &kp SQT
+        &kp LSHFT      &kp Z     &kp X                 &kp C          &kp V   &kp B           &none      &none   &kp LALT  &none  &none   &kp RALT           &none            &none   &kp N   &kp M  &kp COMMA  &kp PERIOD      &kp SLASH  &kp RSHFT
+            &sl 2  &kp GRAVE  &kp CAPS  &kp LS(LA(LC(LGUI)))  &kp LG(GRAVE)          &hm LSHFT BSPC  &lt 2 TAB   &kp LGUI                 &kp RGUI  &hm RALT ENTER  &hm RSHFT SPACE          &kp UP   &kp DOWN    &kp LEFT      &kp RIGHT      &sl 4
             >;
         };
 
