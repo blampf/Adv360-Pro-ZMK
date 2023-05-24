@@ -152,9 +152,7 @@
             compatible = "zmk,behavior-macro";
             label = "WORD_SEL";
             #binding-cells = <0>;
-            bindings =
-                <&kp LA(LEFT) &kp LA(RIGHT) &kp LA(LS(LEFT))>,
-                <&macro_press>;
+            bindings = <&kp LA(LEFT) &kp LA(RIGHT) &kp>;
         };
     };
 
@@ -185,7 +183,7 @@
             bindings = <
 &kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6            &tog 1                                                          &trans  &kp F7        &kp F8        &kp F9   &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans        &trans           &trans  &trans  &cut_paste_dance                                                          &trans  &trans        &trans        &trans    &trans   &trans   &trans
-&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &kp LA(LS(LEFT))  &trans  &hyphen_dash        &trans   &kp SQT   &trans   &trans
+&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &kp LA(LS(LEFT))  &trans  &hyphen_dash   &kp LS(SQT)   &kp SQT   &trans   &trans
 &trans  &trans  &trans        &trans           &trans  &trans             &none   &none  &trans  &none  &none  &trans   &none             &none  &trans        &trans     &kp COMMA    &trans   &trans   &trans
 &trans  &trans  &trans        &trans    &kp LG(GRAVE)                    &trans  &trans  &trans                &trans  &trans            &trans          &kp C_VOL_UP  &kp C_VOL_DN  &kp LBKT   &trans   &trans
             >;
