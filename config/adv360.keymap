@@ -208,5 +208,15 @@
 &trans                &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                 &kp LG(LC(UP))   &kp LG(LC(DOWN))              &trans  &trans  &trans
             >;
         };
+
+        word_select_layer {
+            bindings = <
+ &to 0  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LEFT))  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
