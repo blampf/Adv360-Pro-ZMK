@@ -133,34 +133,9 @@
             key-positions = <48 67>;
         };
 
-        word_sel_right {
-            bindings = <&kp LS(LA(RIGHT))>;
-            key-positions = <73 74 41>;
-        };
-
-        enter_alt_del {
-            bindings = <&kp LA(BSPC)>;
-            key-positions = <77 73>;
-        };
-
-        enter_alt_up {
-            bindings = <&kp LA(UP)>;
-            key-positions = <77 79>;
-        };
-
-        enter_alt_down {
-            bindings = <&kp LA(DOWN)>;
-            key-positions = <77 80>;
-        };
-
-        enter_alt_left {
-            bindings = <&kp LA(LEFT)>;
-            key-positions = <77 81>;
-        };
-
-        enter_alt_right {
-            bindings = <&kp LA(RIGHT)>;
-            key-positions = <77 82>;
+        new_combo {
+            bindings = <&kp K_MUTE>;
+            key-positions = <79 80>;
         };
     };
 
