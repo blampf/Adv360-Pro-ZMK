@@ -148,15 +148,6 @@
                 <&kp C_VOL_DN>,
                 <&kp K_MUTE>;
         };
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
-            bindings =
-                <&none>,
-                <&none>;
-
-            #binding-cells = <2>;
-        };
         app_switcher_dance: app_switcher_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "APP_SWITCHER_DANCE";
