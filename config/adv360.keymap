@@ -132,6 +132,22 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT)>;
         };
+        dbl_l_shift_caps: dbl_l_shift_caps {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DBL_L_SHIFT_CAPS";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LSHIFT>,
+                <&kp CAPS>;
+        };
+        dbl_r_shift_capsword: dbl_r_shift_capsword {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DBL_R_SHIFT_CAPSWORD";
+            #binding-cells = <0>;
+            bindings =
+                <&kp RSHIFT>,
+                <&caps_word_lock>;
+        };
     };
 
     combos {
@@ -172,11 +188,11 @@
 
         default_layer {
             bindings = <
-       &kp ESCAPE     &kp N1           &kp N2                &kp N3  &kp N4  &kp N5             &tog 1                                                                                    &mo 3  &kp N6    &kp N7    &kp N8      &kp N9             &kp N0  &kp MINUS
-          &kp TAB      &kp Q            &kp W                 &kp E   &kp R   &kp T  &copy_paste_dance                                                                                    &none   &kp Y     &kp U     &kp I       &kp O              &kp P   &kp BSLH
-&sk LS(LA(LCTRL))      &kp A            &kp S                 &kp D   &kp F   &kp G   &undo_redo_dance    &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL  &hm LG(LS(V)) LG(SPACE)        &word_sel   &kp H     &kp J     &kp K       &kp L      &kp SEMICOLON    &kp SQT
-        &kp LSHFT      &kp Z            &kp X                 &kp C   &kp V   &kp B              &none      &none   &kp LALT  &none  &none   &kp RALT                    &none            &none   &kp N     &kp M    &kp UP  &kp PERIOD          &kp SLASH  &kp RSHFT
-            &sl 2  &kp GRAVE  &caps_word_lock  &sk LS(LA(LC(LGUI)))   &none             &hm LSHFT BSPC  &lt 2 TAB   &kp LGUI                 &kp RGUI           &hm LALT ENTER  &hm RSHFT SPACE          &kp LEFT  &kp DOWN   &kp RIGHT  &kp RIGHT_BRACKET      &sl 4
+       &kp ESCAPE     &kp N1           &kp N2                &kp N3  &kp N4  &kp N5             &tog 1                                                                                    &mo 3  &kp N6    &kp N7    &kp N8      &kp N9             &kp N0              &kp MINUS
+          &kp TAB      &kp Q            &kp W                 &kp E   &kp R   &kp T  &copy_paste_dance                                                                                    &none   &kp Y     &kp U     &kp I       &kp O              &kp P               &kp BSLH
+&sk LS(LA(LCTRL))      &kp A            &kp S                 &kp D   &kp F   &kp G   &undo_redo_dance    &kp ESC  &kp LCTRL  &none  &none  &kp RCTRL  &hm LG(LS(V)) LG(SPACE)        &word_sel   &kp H     &kp J     &kp K       &kp L      &kp SEMICOLON                &kp SQT
+&dbl_l_shift_caps      &kp Z            &kp X                 &kp C   &kp V   &kp B              &none      &none   &kp LALT  &none  &none   &kp RALT                    &none            &none   &kp N     &kp M    &kp UP  &kp PERIOD          &kp SLASH  &dbl_r_shift_capsword
+            &sl 2  &kp GRAVE  &caps_word_lock  &sk LS(LA(LC(LGUI)))   &none             &hm LSHFT BSPC  &lt 2 TAB   &kp LGUI                 &kp RGUI           &hm LALT ENTER  &hm RSHFT SPACE          &kp LEFT  &kp DOWN   &kp RIGHT  &kp RIGHT_BRACKET                  &sl 4
             >;
         };
 
