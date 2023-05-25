@@ -179,7 +179,7 @@
             compatible = "zmk,behavior-macro";
             label = "WORD_SEL";
             #binding-cells = <0>;
-            bindings = <&kp LA(LEFT) &kp LA(RIGHT) &kp>;
+            bindings = <&kp LA(LEFT) &kp LA(RIGHT) &kp LS(LA(LEFT))>;
         };
     };
 
