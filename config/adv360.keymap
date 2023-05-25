@@ -226,11 +226,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6            &tog 1                                                               &trans  &kp F7        &kp F8        &kp F9   &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans        &trans           &trans  &trans  &cut_paste_dance                                                               &trans  &trans        &trans        &trans    &trans   &trans   &trans
-&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &trans  &hyphen_dash   &kp LS(SQT)   &kp SQT   &trans   &trans
-&trans  &trans  &trans        &trans           &trans  &trans             &none   &none  &trans  &none  &none  &trans   &none                  &none  &trans        &trans     &kp COMMA    &trans   &trans   &trans
-&trans  &trans  &trans        &trans    &kp LG(GRAVE)                    &trans  &trans  &trans                &trans  &trans                 &trans          &kp C_VOL_UP  &kp C_VOL_DN  &kp LBKT   &trans   &trans
+&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6            &tog 1                                                      &kp C_VOLUME_UP  &kp F7        &kp F8         &kp F9   &kp F10      &kp F11  &kp F12
+&trans  &trans  &trans        &trans           &trans  &trans  &cut_paste_dance                                                         &kp C_VOL_DN  &trans        &trans         &trans    &trans       &trans   &trans
+&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &trans  &hyphen_dash  &kp LS(COMMA)   &kp SQT  &kp LS(SQT)   &trans
+&trans  &trans  &trans        &trans           &trans  &trans             &none   &none  &trans  &none  &none  &trans   &none                  &none  &trans        &trans      &kp COMMA    &trans       &trans   &trans
+&trans  &trans  &trans        &trans    &kp LG(GRAVE)                    &trans  &trans  &trans                &trans  &trans                 &trans          &kp C_VOL_UP   &kp C_VOL_DN  &kp LBKT       &trans   &trans
             >;
         };
 
