@@ -156,6 +156,14 @@
                 <&kp LG(TAB)>,
                 <&app_switcher>;
         };
+        vol_dwn_mute: vol_dwn_mute {
+            compatible = "zmk,behavior-tap-dance";
+            label = "VOL_DWN_MUTE";
+            #binding-cells = <0>;
+            bindings =
+                <&kp C_VOL_DN>,
+                <&kp K_MUTE>;
+        };
     };
 
     combos {
@@ -226,11 +234,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6            &tog 1                                                      &kp C_VOLUME_UP  &kp F7        &kp F8         &kp F9   &kp F10      &kp F11  &kp F12
-&trans  &trans  &trans        &trans           &trans  &trans  &cut_paste_dance                                                         &kp C_VOL_DN  &trans        &trans         &trans    &trans       &trans   &trans
-&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &trans  &hyphen_dash  &kp LS(COMMA)   &kp SQT  &kp LS(SQT)   &trans
-&trans  &trans  &trans        &trans           &trans  &trans             &none   &none  &trans  &none  &none  &trans   &none                  &none  &trans        &trans      &kp COMMA    &trans       &trans   &trans
-&trans  &trans  &trans        &trans    &kp LG(GRAVE)                    &trans  &trans  &trans                &trans  &trans                 &trans          &kp C_VOL_UP   &kp C_VOL_DN  &kp LBKT       &trans   &trans
+&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6            &tog 1                                                      &kp C_VOLUME_UP  &kp F7        &kp F8         &kp F9        &kp F10      &kp F11  &kp F12
+&trans  &trans  &trans        &trans           &trans  &trans  &cut_paste_dance                                                        &vol_dwn_mute  &trans        &trans         &trans         &trans       &trans   &trans
+&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans            &trans  &trans  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &trans  &hyphen_dash  &kp LS(COMMA)        &kp SQT  &kp LS(SQT)   &trans
+&trans  &trans  &trans        &trans           &trans  &trans             &none   &none  &trans  &none  &none  &trans   &none                  &none  &trans        &trans     &kp LA(UP)       &kp LBKT       &trans   &trans
+&trans  &trans  &trans        &trans    &kp LG(GRAVE)              &kp LA(BSPC)  &trans  &trans                &trans  &trans                 &trans          &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT)       &trans   &trans
             >;
         };
 
