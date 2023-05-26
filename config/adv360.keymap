@@ -137,6 +137,7 @@
             flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
+            global-quick-tap;
         };
     };
 
