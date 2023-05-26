@@ -29,6 +29,8 @@
             bindings =
                 <&kp>,
                 <&kp>;
+
+            quick-tap-ms = <175>;
         };
         mod_sticky: mod_sticky {
             compatible = "zmk,behavior-hold-tap";
