@@ -172,6 +172,11 @@
             bindings = <&kp LS(LA(LC(LG(F11))))>;
             key-positions = <7 21>;
         };
+
+        new_combo {
+            bindings = <&kp LG(GRAVE)>;
+            key-positions = <73 78>;
+        };
     };
 
     macros {
