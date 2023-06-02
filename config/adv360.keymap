@@ -192,11 +192,11 @@
 
         default_layer {
             bindings = <
-           &kp ESCAPE     &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                                                                 &mo 3  &kp N6  &kp N7     &kp N8      &kp N9         &kp N0  &kp MINUS
-              &kp TAB      &kp Q    &kp W     &kp E      &kp R   &kp T           &app_switcher                                                                                       &hm LS(LA(SLASH)) LS(LG(SLASH))   &kp Y   &kp U      &kp I       &kp O          &kp P   &kp BSLH
-&sk LS(LA(LG(LCTRL)))      &kp A    &kp S     &kp D      &kp F   &kp G        &undo_redo_dance      &kp LGUI        &kp LCTRL  &none  &none      &kp RCTRL  &hm LC(SPACE) LG(SPACE)                   &word_selector   &kp H   &kp J      &kp K       &kp L  &kp SEMICOLON    &kp SQT
-            &kp LSHFT      &kp Z    &kp X     &kp C      &kp V   &kp B                   &none         &none         &kp LALT  &none  &none       &kp RALT                    &none                            &none   &kp N   &kp M  &kp COMMA  &kp PERIOD      &kp SLASH  &kp RSHFT
-                &sl 4  &kp GRAVE  &kp ESC  &kp LEFT  &kp RIGHT          &one_word_delete_morph  &hm LGUI TAB  &hm LG(X) LG(C)                &app_switcher           &hm RGUI ENTER                        &kp SPACE          &kp UP   &kp DOWN    &kp LBKT       &kp RBKT      &sl 4
+           &kp ESCAPE     &kp N1   &kp N2    &kp N3     &kp N4  &kp N5                  &tog 1                                                                                                          &mo 3  &kp N6  &kp N7     &kp N8      &kp N9         &kp N0  &kp MINUS
+              &kp TAB      &kp Q    &kp W     &kp E      &kp R   &kp T           &app_switcher                                                                                &hm LS(LA(SLASH)) LS(LG(SLASH))   &kp Y   &kp U      &kp I       &kp O          &kp P   &kp BSLH
+&sk LS(LA(LG(LCTRL)))      &kp A    &kp S     &kp D      &kp F   &kp G        &undo_redo_dance  &hm LG(X) LG(C)  &kp LCTRL  &none  &none  &kp RCTRL  &hm LC(SPACE) LG(SPACE)                   &word_selector   &kp H   &kp J      &kp K       &kp L  &kp SEMICOLON    &kp SQT
+            &kp LSHFT      &kp Z    &kp X     &kp C      &kp V   &kp B                   &none            &none   &kp LALT  &none  &none   &kp RALT                    &none                            &none   &kp N   &kp M  &kp COMMA  &kp PERIOD      &kp SLASH  &kp RSHFT
+                &sl 4  &kp GRAVE  &kp ESC  &kp LEFT  &kp RIGHT          &one_word_delete_morph     &hm LGUI TAB   &kp LGUI                 &kp RGUI           &hm RGUI ENTER                        &kp SPACE          &kp UP   &kp DOWN    &kp LBKT       &kp RBKT      &sl 4
             >;
         };
 
@@ -212,11 +212,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6        &tog 1                                                                                      &kp C_VOLUME_UP        &kp F7      &kp F8        &kp F9  &kp F10      &kp F11  &kp F12
-&trans  &trans  &trans        &trans           &trans  &trans        &trans                                                                                         &kp C_VOL_DN        &trans      &trans        &trans   &trans       &trans   &trans
-&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans        &trans  &trans                   &trans  &none  &none                 &trans  &trans  &word_sel_shift_morph  &hyphen_dash  &kp PERIOD     &kp COMMA  &kp SQT  &kp LS(SQT)   &trans
-&trans  &trans  &trans        &trans           &trans  &trans         &none   &none                   &trans  &none  &none                 &trans   &none                  &none        &trans      &trans        &trans   &trans       &trans   &trans
-&trans  &trans  &trans  &kp LA(LEFT)    &kp LA(RIGHT)          &kp LA(BSPC)  &trans  &paste_plainpaste_dance                &kp LS(LA(LC(LG(R))))  &trans                 &trans                &kp LA(UP)  &kp LA(DOWN)   &trans       &trans   &trans
+&kp F1  &kp F2  &kp F3        &kp F4           &kp F5  &kp F6                 &tog 1                                                                       &kp C_VOLUME_UP        &kp F7      &kp F8        &kp F9  &kp F10      &kp F11  &kp F12
+&trans  &trans  &trans        &trans           &trans  &trans  &kp LS(LA(LC(LG(R))))                                                                          &kp C_VOL_DN        &trans      &trans        &trans   &trans       &trans   &trans
+&trans  &trans  &trans  &kp QUESTION  &kp EXCLAMATION  &trans                 &trans  &paste_plainpaste_dance  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &hyphen_dash  &kp PERIOD     &kp COMMA  &kp SQT  &kp LS(SQT)   &trans
+&trans  &trans  &trans        &trans           &trans  &trans                  &none                    &none  &trans  &none  &none  &trans   &none                  &none        &trans      &trans        &trans   &trans       &trans   &trans
+&trans  &trans  &trans  &kp LA(LEFT)    &kp LA(RIGHT)                   &kp LA(BSPC)                   &trans  &trans                &trans  &trans                 &trans                &kp LA(UP)  &kp LA(DOWN)   &trans       &trans   &trans
             >;
         };
 
