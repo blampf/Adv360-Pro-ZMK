@@ -124,6 +124,16 @@
                 <&hm LG(LS(V)) LG(V)>,
                 <&kp LG(LA(V))>;
         };
+        one_word_delete: one_word_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "ONE_WORD_DELETE";
+            bindings =
+                <&kp BSPC>,
+                <&kp RA(BSPC)>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RGUI)>;
+        };
     };
 
     combos {
