@@ -166,6 +166,31 @@
             bindings = <&kp LG(GRAVE)>;
             key-positions = <73 78>;
         };
+
+        question_combo {
+            bindings = <&kp QUESTION>;
+            key-positions = <30 31>;
+        };
+
+        exclaim_combo {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <32 31>;
+        };
+
+        em_combo {
+            bindings = <&kp LA(LS(MINUS))>;
+            key-positions = <42 43>;
+        };
+
+        dash_combo {
+            bindings = <&kp MINUS>;
+            key-positions = <43 44>;
+        };
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
+        };
     };
 
     macros {
