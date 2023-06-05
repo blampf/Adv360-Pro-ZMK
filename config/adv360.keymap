@@ -226,6 +226,11 @@
             bindings = <&tog 1>;
             key-positions = <24 25>;
         };
+
+        l_esc_combo {
+            bindings = <&kp ESC>;
+            key-positions = <53 52>;
+        };
     };
 
     macros {
