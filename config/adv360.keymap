@@ -221,6 +221,11 @@
             key-positions = <23 24>;
             layers = <2>;
         };
+
+        num_layer_combo {
+            bindings = <&tog 1>;
+            key-positions = <24 25>;
+        };
     };
 
     macros {
