@@ -144,11 +144,13 @@
         lthumb_layer2 {
             bindings = <&sl 4>;
             key-positions = <73 74>;
+            layers = <0>;
         };
 
         rthumb_layer2 {
             bindings = <&sl 4>;
             key-positions = <77 78>;
+            layers = <0>;
         };
 
         twoshft_caps {
@@ -202,7 +204,7 @@
         };
 
         rshft_combo {
-            bindings = <&sk RSHFT>;
+            bindings = <&caps_word>;
             key-positions = <23 24>;
         };
     };
