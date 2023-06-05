@@ -229,12 +229,12 @@
 
         l_esc_combo {
             bindings = <&kp ESC>;
-            key-positions = <53 52>;
+            key-positions = <52 51>;
         };
 
         r_esc_combo {
             bindings = <&kp ESC>;
-            key-positions = <62 63>;
+            key-positions = <63 64>;
         };
     };
 
