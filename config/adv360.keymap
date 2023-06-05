@@ -114,7 +114,6 @@
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
-            global-quick-tap;
         };
         paste_plainpaste_dance: paste_plainpaste_dance {
             compatible = "zmk,behavior-tap-dance";
