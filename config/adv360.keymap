@@ -205,6 +205,11 @@
             bindings = <&sk RSHFT>;
             key-positions = <23 24>;
         };
+
+        index_capsword_combo {
+            bindings = <&caps_word>;
+            key-positions = <18 17 23 24 37 55 57>;
+        };
     };
 
     macros {
