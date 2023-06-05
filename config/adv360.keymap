@@ -201,11 +201,25 @@
         lshft_combo {
             bindings = <&sk LSHFT>;
             key-positions = <18 17>;
+            layers = <0>;
         };
 
         rshft_combo {
+            bindings = <&sk RSHFT>;
+            key-positions = <23 24>;
+            layers = <0>;
+        };
+
+        l_capsword_combo {
+            bindings = <&caps_word>;
+            key-positions = <18 17>;
+            layers = <2>;
+        };
+
+        r_capsword_combo {
             bindings = <&caps_word>;
             key-positions = <23 24>;
+            layers = <2>;
         };
     };
 
