@@ -195,6 +195,16 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <45 46>;
         };
+
+        lshft_combo {
+            bindings = <&sk LSHFT>;
+            key-positions = <18 17>;
+        };
+
+        rshft_combo {
+            bindings = <&sk RSHFT>;
+            key-positions = <23 24>;
+        };
     };
 
     macros {
