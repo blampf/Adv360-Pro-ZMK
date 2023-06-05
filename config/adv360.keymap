@@ -187,9 +187,14 @@
             key-positions = <43 44>;
         };
 
-        new_combo {
-            bindings = <&trans>;
-            key-positions = <>;
+        apostrophe_combo {
+            bindings = <&kp SQT>;
+            key-positions = <44 45>;
+        };
+
+        quote_combo {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <45 46>;
         };
     };
 
