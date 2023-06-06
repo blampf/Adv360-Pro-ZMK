@@ -142,13 +142,13 @@
         compatible = "zmk,combos";
 
         lthumb_layer2 {
-            bindings = <&sl 4>;
+            bindings = <&kp LSHFT>;
             key-positions = <73 74>;
             layers = <0>;
         };
 
         rthumb_layer2 {
-            bindings = <&sl 4>;
+            bindings = <&kp RSHFT>;
             key-positions = <77 78>;
             layers = <0>;
         };
@@ -186,45 +186,6 @@
         dash_combo {
             bindings = <&kp MINUS>;
             key-positions = <43 44>;
-        };
-
-        apostrophe_combo {
-            bindings = <&kp SQT>;
-            key-positions = <44 45>;
-        };
-
-        quote_combo {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <45 46>;
-        };
-
-        lshft_combo {
-            bindings = <&sk LSHFT>;
-            key-positions = <18 17>;
-            layers = <0>;
-        };
-
-        rshft_combo {
-            bindings = <&sk RSHFT>;
-            key-positions = <23 24>;
-            layers = <0>;
-        };
-
-        l_capsword_combo {
-            bindings = <&caps_word>;
-            key-positions = <18 17>;
-            layers = <2>;
-        };
-
-        r_capsword_combo {
-            bindings = <&caps_word>;
-            key-positions = <23 24>;
-            layers = <2>;
-        };
-
-        num_layer_combo {
-            bindings = <&tog 1>;
-            key-positions = <24 25>;
         };
 
         l_esc_combo {
