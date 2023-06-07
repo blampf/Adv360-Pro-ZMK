@@ -143,13 +143,13 @@
         compatible = "zmk,combos";
 
         lthumb_layer2 {
-            bindings = <&kp LSHFT>;
+            bindings = <&hm_layer 4 ESC>;
             key-positions = <73 74>;
             layers = <0>;
         };
 
         rthumb_layer2 {
-            bindings = <&kp RSHFT>;
+            bindings = <&hm_layer 4 ESC>;
             key-positions = <77 78>;
             layers = <0>;
         };
