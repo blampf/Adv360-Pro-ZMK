@@ -166,7 +166,7 @@
 
         onepass_combo {
             bindings = <&kp LG(GRAVE)>;
-            key-positions = <73 78>;
+            key-positions = <74 77>;
         };
 
         question_combo {
@@ -202,6 +202,11 @@
         apos_combo {
             bindings = <&kp SQT>;
             key-positions = <45 44>;
+        };
+
+        word_del_combo {
+            bindings = <&kp LA(BSPC)>;
+            key-positions = <73 78>;
         };
     };
 
