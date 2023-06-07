@@ -189,16 +189,6 @@
             key-positions = <43 44>;
         };
 
-        l_esc_combo {
-            bindings = <&kp ESC>;
-            key-positions = <32 33>;
-        };
-
-        r_esc_combo {
-            bindings = <&kp ESC>;
-            key-positions = <63 64>;
-        };
-
         apos_combo {
             bindings = <&kp SQT>;
             key-positions = <45 44>;
