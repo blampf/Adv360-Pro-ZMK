@@ -267,11 +267,11 @@
 
         layer_app {
             bindings = <
-&trans  &kp LS(LG(NUMBER_1))  &trans  &trans  &trans  &trans  &trans                                                  &trans         &trans          &trans             &trans              &trans  &trans  &trans
-&trans                &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans         &trans          &trans             &trans              &trans  &trans  &trans
-&trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans          &trans             &trans       &kp LS(LG(L))  &trans  &trans
-&trans                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N))   &kp LG(LS(M))  &kp LS(LG(COMMA))  &kp LS(LG(PERIOD))  &trans  &trans
-&trans                &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans                 &kp LG(LC(UP))   &kp LG(LC(DOWN))              &trans  &trans  &trans
+&trans  &kp LS(LG(NUMBER_1))  &trans    &trans  &trans  &trans  &trans                                                  &trans         &trans          &trans             &trans              &trans  &trans  &trans
+&trans                &trans  &trans    &trans  &trans  &trans  &trans                                                  &trans         &trans          &trans             &trans              &trans  &trans  &trans
+&trans                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans          &trans             &trans       &kp LS(LG(L))  &trans  &trans
+&trans                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N))   &kp LG(LS(M))  &kp LS(LG(COMMA))  &kp LS(LG(PERIOD))  &trans  &trans
+&trans                &trans  &trans  &kp DOWN  &kp UP          &trans  &trans  &trans                  &trans  &trans  &trans                 &kp LG(LC(UP))   &kp LG(LC(DOWN))              &trans  &trans  &trans
             >;
         };
     };
