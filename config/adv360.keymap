@@ -226,6 +226,11 @@
             bindings = <&kp LA(BSPC)>;
             key-positions = <73 78>;
         };
+
+        quote_combo {
+            bindings = <&kp LS(SQT)>;
+            key-positions = <46 45>;
+        };
     };
 
     macros {
