@@ -207,12 +207,12 @@
 
         em_combo {
             bindings = <&kp LA(LS(MINUS))>;
-            key-positions = <44 43>;
+            key-positions = <23 24>;
         };
 
         dash_combo {
             bindings = <&kp MINUS>;
-            key-positions = <24 23>;
+            key-positions = <43 44>;
         };
 
         apos_combo {
