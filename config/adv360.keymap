@@ -207,17 +207,17 @@
 
         em_combo {
             bindings = <&kp LA(LS(MINUS))>;
-            key-positions = <42 43>;
+            key-positions = <44 43>;
         };
 
         dash_combo {
             bindings = <&kp MINUS>;
-            key-positions = <43 44>;
+            key-positions = <24 23>;
         };
 
         apos_combo {
             bindings = <&kp SQT>;
-            key-positions = <45 44>;
+            key-positions = <32 31>;
         };
 
         word_del_combo {
@@ -227,7 +227,7 @@
 
         quote_combo {
             bindings = <&kp LS(SQT)>;
-            key-positions = <32 31>;
+            key-positions = <44 45>;
         };
     };
 
