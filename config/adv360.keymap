@@ -185,8 +185,8 @@
             layers = <0>;
         };
 
-        rthumb_layer2 {
-            bindings = <&hm_layer 4 ESC>;
+        rthumb_hyper {
+            bindings = <&hm LS(LA(LC(LGUI))) ESC>;
             key-positions = <77 78>;
             layers = <0>;
         };
