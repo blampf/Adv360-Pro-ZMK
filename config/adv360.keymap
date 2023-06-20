@@ -206,29 +206,9 @@
             key-positions = <74 77>;
         };
 
-        em_combo {
-            bindings = <&kp LA(LS(MINUS))>;
-            key-positions = <23 24>;
-        };
-
-        dash_combo {
-            bindings = <&kp MINUS>;
-            key-positions = <63 64>;
-        };
-
-        apos_combo {
-            bindings = <&kp SQT>;
-            key-positions = <18 17>;
-        };
-
         number_combo {
             bindings = <&tog 1>;
             key-positions = <73 78>;
-        };
-
-        quote_combo {
-            bindings = <&kp LS(SQT)>;
-            key-positions = <52 51>;
         };
 
         index_caps_word {
