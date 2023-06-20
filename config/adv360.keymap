@@ -223,22 +223,22 @@
 
         dash_combo {
             bindings = <&kp MINUS>;
-            key-positions = <43 44>;
+            key-positions = <63 64>;
         };
 
         apos_combo {
             bindings = <&kp SQT>;
-            key-positions = <32 31>;
+            key-positions = <52 51>;
         };
 
-        word_del_combo {
-            bindings = <&kp LA(BSPC)>;
+        number_combo {
+            bindings = <&tog 1>;
             key-positions = <73 78>;
         };
 
         quote_combo {
             bindings = <&kp LS(SQT)>;
-            key-positions = <31 30>;
+            key-positions = <51 50>;
         };
 
         index_caps_word {
