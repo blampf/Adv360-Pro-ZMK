@@ -253,6 +253,66 @@
             bindings = <&kp LA(LSHFT)>;
             key-positions = <32 31>;
         };
+
+        cmd_shift_left {
+            bindings = <&kp LS(LGUI)>;
+            key-positions = <73 32>;
+        };
+
+        cmd_shift_right {
+            bindings = <&kp RS(RGUI)>;
+            key-positions = <78 43>;
+        };
+
+        alt_ctrl_left {
+            bindings = <&kp LC(LALT)>;
+            key-positions = <31 30>;
+        };
+
+        alt_ctrl_right {
+            bindings = <&kp RA(RCTRL)>;
+            key-positions = <44 45>;
+        };
+
+        shft_ctrl_left {
+            bindings = <&kp LC(LSHFT)>;
+            key-positions = <32 30>;
+        };
+
+        shft_ctrl_right {
+            bindings = <&kp RC(RSHFT)>;
+            key-positions = <43 45>;
+        };
+
+        shft_alt_ctrl_left {
+            bindings = <&kp LA(LC(LSHFT))>;
+            key-positions = <32 31 30>;
+        };
+
+        shft_alt_ctrl_right {
+            bindings = <&kp RA(RC(RSHFT))>;
+            key-positions = <43 44 45>;
+        };
+
+        cmd_alt_left {
+            bindings = <&kp LA(LGUI)>;
+            key-positions = <73 31>;
+        };
+
+        cmd_alt_right {
+            bindings = <&kp RA(RGUI)>;
+            key-positions = <78 44>;
+        };
+
+        cmd_ctrl_left {
+            bindings = <&kp LC(LGUI)>;
+            key-positions = <73 30>;
+        };
+
+        cmd_ctrl_right {
+            bindings = <&kp RC(RGUI)>;
+            key-positions = <78 45>;
+        };
     };
 
     macros {
