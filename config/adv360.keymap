@@ -313,6 +313,46 @@
             bindings = <&kp RC(RGUI)>;
             key-positions = <78 45>;
         };
+
+        cmd_shft_alt_left {
+            bindings = <&kp LS(LA(LGUI))>;
+            key-positions = <73 32 31>;
+        };
+
+        cmd_shft_alt_right {
+            bindings = <&kp RS(RA(RGUI))>;
+            key-positions = <78 43 44>;
+        };
+
+        cmd_shft_ctrl_left {
+            bindings = <&kp LC(LS(LGUI))>;
+            key-positions = <73 32 30>;
+        };
+
+        cmd_shft_ctrl_right {
+            bindings = <&kp RS(RC(RGUI))>;
+            key-positions = <78 43 45>;
+        };
+
+        cmd_alt_ctrl_left {
+            bindings = <&kp LA(LC(LGUI))>;
+            key-positions = <73 31 30>;
+        };
+
+        cmd_alt_ctrl_right {
+            bindings = <&kp RA(RC(RGUI))>;
+            key-positions = <78 45 44>;
+        };
+
+        hyper_left {
+            bindings = <&kp LS(LA(LC(LGUI)))>;
+            key-positions = <73 32 31 30>;
+        };
+
+        hyper_right {
+            bindings = <&kp RS(RA(RC(RGUI)))>;
+            key-positions = <78 43 44 45>;
+        };
     };
 
     macros {
