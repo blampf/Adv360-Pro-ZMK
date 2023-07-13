@@ -357,11 +357,13 @@
         nav_combo {
             bindings = <&tog 2>;
             key-positions = <23 24 25>;
+            layers = <0 1 2>;
         };
 
         num_combo {
             bindings = <&tog 1>;
             key-positions = <63 64 65>;
+            layers = <0 1 2>;
         };
     };
 
