@@ -358,6 +358,11 @@
             bindings = <&tog 2>;
             key-positions = <23 24 25>;
         };
+
+        num_combo {
+            bindings = <&tog 1>;
+            key-positions = <63 64 65>;
+        };
     };
 
     macros {
