@@ -234,11 +234,6 @@
             key-positions = <74 77>;
         };
 
-        number_combo {
-            bindings = <&tog 1>;
-            key-positions = <73 78>;
-        };
-
         index_caps_word {
             bindings = <&caps_word>;
             key-positions = <32 43>;
@@ -352,6 +347,16 @@
         hyper_right {
             bindings = <&kp RS(RA(RC(RGUI)))>;
             key-positions = <78 43 44 45>;
+        };
+
+        dash_combo {
+            bindings = <&hm LS(LA(MINUS)) MINUS>;
+            key-positions = <18 17>;
+        };
+
+        nav_combo {
+            bindings = <&tog 2>;
+            key-positions = <23 24 25>;
         };
     };
 
