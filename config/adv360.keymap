@@ -349,11 +349,6 @@
             key-positions = <78 43 44 45>;
         };
 
-        dash_combo {
-            bindings = <&hm LS(LA(MINUS)) MINUS>;
-            key-positions = <32 33>;
-        };
-
         nav_combo {
             bindings = <&to 2>;
             key-positions = <23 24 25>;
@@ -376,6 +371,11 @@
             bindings = <&to 0>;
             key-positions = <63 64 65>;
             layers = <1>;
+        };
+
+        dashdash_combo {
+            bindings = <&hm LS(LA(MINUS)) MINUS>;
+            key-positions = <33 32>;
         };
     };
 
@@ -426,7 +426,7 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2  &kp F3       &kp F4         &kp F5  &kp F6                 &tog 1                                                                       &kp C_VOLUME_UP  &kp F7       &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2  &kp F3       &kp F4         &kp F5  &kp F6                 &trans                                                                       &kp C_VOLUME_UP  &kp F7       &kp F8         &kp F9    &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans     &kp HOME        &kp END  &trans  &kp LS(LA(LC(LG(R))))                                                                          &kp C_VOL_DN  &trans     &kp HOME         &kp UP    &kp END   &trans   &trans
 &trans  &trans  &trans       &trans         &trans  &trans          &kp LS(LG(Z))  &paste_plainpaste_dance  &trans  &none  &none  &trans  &trans  &word_sel_shift_morph  &trans     &kp LEFT       &kp DOWN  &kp RIGHT   &trans   &trans
 &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans                  &none                    &none  &trans  &none  &none  &trans   &none                  &none  &trans  &kp PAGE_UP  &kp PAGE_DOWN     &trans   &trans   &trans
@@ -461,6 +461,16 @@
 &trans           &trans  &kp DOUBLE_QUOTES       &kp SQT  &hm LS(LA(MINUS)) MINUS                 &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans         &trans   &trans  &trans  &trans
 &trans        &kp CARET      &kp AMPERSAND  &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp PAGE_UP  &kp PAGE_DOWN   &trans  &trans  &trans
 &trans           &trans             &trans  &kp LA(LEFT)            &kp LA(RIGHT)                         &kp LA(BSPC)  &trans  &trans                  &trans  &trans  &trans             &kp LEFT      &kp RIGHT   &trans  &trans  &trans
+            >;
+        };
+
+        layer_nav {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
