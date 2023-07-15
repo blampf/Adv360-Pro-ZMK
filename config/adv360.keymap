@@ -210,13 +210,13 @@
         lthumb_layer2 {
             bindings = <&hm_layer 4 ESC>;
             key-positions = <73 74>;
-            layers = <0>;
+            layers = <>;
         };
 
         rthumb_hyper {
             bindings = <&hm LS(LA(LC(LGUI))) ESC>;
             key-positions = <77 78>;
-            layers = <0>;
+            layers = <>;
         };
 
         twoshft_caps {
