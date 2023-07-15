@@ -350,7 +350,7 @@
         };
 
         nav_combo {
-            bindings = <&to 2>;
+            bindings = <&to 6>;
             key-positions = <23 24 25>;
             layers = <0 1>;
         };
@@ -358,13 +358,13 @@
         num_combo {
             bindings = <&to 1>;
             key-positions = <63 64 65>;
-            layers = <0 2>;
+            layers = <0 6>;
         };
 
         nav2default_combo {
             bindings = <&to 0>;
             key-positions = <23 24 25>;
-            layers = <2>;
+            layers = <6>;
         };
 
         num2default_combo {
