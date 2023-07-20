@@ -416,11 +416,11 @@
 
         layer_keypad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans   &none  &trans  &trans  &none  &none  &trans                &trans     &trans  &trans   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans   &none   &none  &trans  &none  &none  &trans                 &none      &none  &trans   &kp KP_N1     &kp KP_N2      &kp KP_N3        &kp SLASH  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans                &trans  &hm_layer 5 KP_ENTER  &kp KP_N0              &trans        &trans     &kp KP_DOT           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                              &kp C_VOLUME_UP  &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LG(R))))                                                                 &kp C_VOL_DN  &trans   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp LS(LG(Z))  &trans  &trans  &none  &none  &trans                &trans           &trans  &trans   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &none   &none  &trans  &none  &none  &trans                 &none            &none  &trans   &kp KP_N1     &kp KP_N2      &kp KP_N3        &kp SLASH  &trans
+&trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans                &trans  &hm_layer 5 KP_ENTER        &kp KP_N0              &trans        &trans     &kp KP_DOT           &trans  &trans
             >;
         };
 
