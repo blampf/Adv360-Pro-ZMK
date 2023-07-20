@@ -220,7 +220,7 @@
         };
 
         twoshft_caps {
-            bindings = <&caps_word>;
+            bindings = <&kp CAPS>;
             key-positions = <48 67>;
         };
 
