@@ -467,9 +467,9 @@
         layer_nav {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                  &trans  &trans    &trans       &trans            &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                  &trans  &trans  &kp HOME       &kp UP           &kp END  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT     &kp DOWN         &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PAGE_UP            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &trans                                                  &trans  &trans    &trans       &trans            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans            &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_UP           &kp END  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans            &trans    &kp PG_DN  &kp LEFT_BRACKET  &trans  &trans
             >;
         };
