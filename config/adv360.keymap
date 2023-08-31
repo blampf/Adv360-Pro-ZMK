@@ -446,11 +446,11 @@
 
         layer_app {
             bindings = <
-&trans  &kp LS(LG(NUMBER_1))  &trans        &trans         &trans  &trans  &trans                                                  &trans         &trans         &trans            &trans                                     &trans  &trans  &trans
-&trans                &trans  &trans        &trans         &trans  &trans  &trans                                                  &trans         &trans         &trans            &trans                                     &trans  &trans  &trans
-&trans                &trans  &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans            &trans                              &kp LS(LG(L))  &trans  &trans
-&trans                &trans  &trans        &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N))  &kp LG(LS(M))    &kp LG(LC(UP))  &thumb_shift LS(LG(COMMA)) LS(LG(PERIOD))  &trans  &trans
-&trans                &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)          &trans  &trans  &trans                  &trans  &trans  &trans                        &trans  &kp LG(LC(DOWN))                                     &trans  &trans  &trans
+&trans  &kp LS(LG(NUMBER_1))  &trans        &trans         &trans  &trans      &trans                                                  &trans         &trans         &trans            &trans                                     &trans  &trans  &trans
+&trans                &trans  &trans        &trans         &trans  &trans      &trans                                                  &trans         &trans         &trans            &trans                                     &trans  &trans  &trans
+&trans                &trans  &trans        &trans         &trans  &trans  &kp LA(F3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans            &trans                              &kp LS(LG(L))  &trans  &trans
+&trans                &trans  &trans        &trans         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N))  &kp LG(LS(M))    &kp LG(LC(UP))  &thumb_shift LS(LG(COMMA)) LS(LG(PERIOD))  &trans  &trans
+&trans                &trans  &trans  &kp LC(LEFT)  &kp LC(RIGHT)              &trans  &trans  &trans                  &trans  &trans  &trans                        &trans  &kp LG(LC(DOWN))                                     &trans  &trans  &trans
             >;
         };
 
