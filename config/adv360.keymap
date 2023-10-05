@@ -26,9 +26,7 @@
             tapping-term-ms = <200>;
             quick_tap_ms = <175>;
             flavor = "balanced";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             quick-tap-ms = <175>;
             global-quick-tap;
@@ -36,9 +34,7 @@
         mod_sticky: mod_sticky {
             compatible = "zmk,behavior-hold-tap";
             label = "MOD_STICKY";
-            bindings =
-                <&kp>,
-                <&sk>;
+            bindings = <&kp>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -47,9 +43,7 @@
         layertap_stickylayer: layertap_stickylayer {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYERTAP_STICKYLAYER";
-            bindings =
-                <&mo>,
-                <&sl>;
+            bindings = <&mo>, <&sl>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -57,9 +51,7 @@
         stickytap_layerhold: stickytap_layerhold {
             compatible = "zmk,behavior-hold-tap";
             label = "STICKYTAP_LAYERHOLD";
-            bindings =
-                <&mo>,
-                <&sk>;
+            bindings = <&mo>, <&sk>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -69,9 +61,7 @@
         kphold_stickylayer: kphold_stickylayer {
             compatible = "zmk,behavior-hold-tap";
             label = "KPHOLD_STICKYLAYER";
-            bindings =
-                <&kp>,
-                <&sl>;
+            bindings = <&kp>, <&sl>;
 
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -81,24 +71,18 @@
             compatible = "zmk,behavior-tap-dance";
             label = "HYPHEN_DASH";
             #binding-cells = <0>;
-            bindings =
-                <&kp MINUS>,
-                <&kp LA(LS(MINUS))>;
+            bindings = <&kp MINUS>, <&kp LA(LS(MINUS))>;
         };
         undo_redo_dance: undo_redo_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "UNDO_REDO_DANCE";
             #binding-cells = <0>;
-            bindings =
-                <&kp LG(Z)>,
-                <&kp LS(LG(Z))>;
+            bindings = <&kp LG(Z)>, <&kp LS(LG(Z))>;
         };
         word_sel_shift_morph: word_sel_shift_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "WORD_SEL_SHIFT_MORPH";
-            bindings =
-                <&kp LA(LS(LEFT))>,
-                <&kp LS(LA(RIGHT))>;
+            bindings = <&kp LA(LS(LEFT))>, <&kp LS(LA(RIGHT))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -107,9 +91,7 @@
         hm_layer: hm_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_LAYER";
-            bindings =
-                <&mo>,
-                <&kp>;
+            bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
@@ -120,16 +102,12 @@
             compatible = "zmk,behavior-tap-dance";
             label = "PASTE_PLAINPASTE_DANCE";
             #binding-cells = <0>;
-            bindings =
-                <&hm LG(LS(V)) LG(V)>,
-                <&kp LG(LA(V))>;
+            bindings = <&hm LG(LS(V)) LG(V)>, <&kp LG(LA(V))>;
         };
         hm_gui: hm_gui {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_GUI";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -140,9 +118,7 @@
         l_index_shift: l_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "L_INDEX_SHIFT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -153,9 +129,7 @@
         r_index_shift: r_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "R_INDEX_SHIFT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -166,9 +140,7 @@
         thumb_shift: thumb_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "THUMB_SHIFT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -177,9 +149,7 @@
         hm_left: hm_left {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_LEFT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -191,9 +161,7 @@
         hm_right: hm_right {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_RIGHT";
-            bindings =
-                <&kp>,
-                <&kp>;
+            bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -455,7 +423,7 @@
 &trans  &trans                &trans  &trans        &trans         &trans  &trans                                                      &trans  &trans         &trans         &trans            &trans                                     &trans  &trans
 &trans  &trans                &trans  &trans        &trans         &trans  &kp LA(F3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans         &trans            &kp LS(LG(L))                              &trans  &trans
 &trans  &trans                &trans  &trans        &trans         &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LG(N))  &kp LG(LS(M))  &kp LG(LC(UP))    &thumb_shift LS(LG(COMMA)) LS(LG(PERIOD))  &trans  &trans
-&trans  &trans                &trans  &kp LC(LEFT)  &kp LC(RIGHT)          &trans      &trans  &trans                  &trans  &trans  &trans                 &trans         &kp LG(LC(DOWN))  &trans                                     &trans  &trans
+&trans  &trans                &trans  &kp LC(LEFT)  &kp LC(RIGHT)          &trans      &trans  &trans                  &trans  &trans  &trans                 &kp LC(LEFT)   &kp LG(LC(DOWN))  &kp LC(RIGHT)                              &trans  &trans
             >;
         };
 
