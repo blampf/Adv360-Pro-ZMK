@@ -31,6 +31,7 @@
             quick-tap-ms = <175>;
             global-quick-tap;
         };
+
         mod_sticky: mod_sticky {
             compatible = "zmk,behavior-hold-tap";
             label = "MOD_STICKY";
@@ -40,6 +41,7 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
         };
+
         layertap_stickylayer: layertap_stickylayer {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYERTAP_STICKYLAYER";
@@ -48,6 +50,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         stickytap_layerhold: stickytap_layerhold {
             compatible = "zmk,behavior-hold-tap";
             label = "STICKYTAP_LAYERHOLD";
@@ -58,6 +61,7 @@
             flavor = "hold-preferred";
             quick-tap-ms = <175>;
         };
+
         kphold_stickylayer: kphold_stickylayer {
             compatible = "zmk,behavior-hold-tap";
             label = "KPHOLD_STICKYLAYER";
@@ -67,18 +71,21 @@
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
         };
+
         hyphen_dash: hyphen_dash {
             compatible = "zmk,behavior-tap-dance";
             label = "HYPHEN_DASH";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp LA(LS(MINUS))>;
         };
+
         undo_redo_dance: undo_redo_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "UNDO_REDO_DANCE";
             #binding-cells = <0>;
             bindings = <&kp LG(Z)>, <&kp LS(LG(Z))>;
         };
+
         word_sel_shift_morph: word_sel_shift_morph {
             compatible = "zmk,behavior-mod-morph";
             label = "WORD_SEL_SHIFT_MORPH";
@@ -88,6 +95,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
             keep-mods = <(MOD_LSFT)>;
         };
+
         hm_layer: hm_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_LAYER";
@@ -98,12 +106,14 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
         };
+
         paste_plainpaste_dance: paste_plainpaste_dance {
             compatible = "zmk,behavior-tap-dance";
             label = "PASTE_PLAINPASTE_DANCE";
             #binding-cells = <0>;
             bindings = <&hm LG(LS(V)) LG(V)>, <&kp LG(LA(V))>;
         };
+
         hm_gui: hm_gui {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_GUI";
@@ -115,6 +125,7 @@
             global-quick-tap;
             flavor = "balanced";
         };
+
         l_index_shift: l_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "L_INDEX_SHIFT";
@@ -126,6 +137,7 @@
             flavor = "hold-preferred";
             hold-trigger-key-positions = <22 42 62 23 43 63 24 44 64 25 45 65 26 46 66 13 27 47 67 83 82 81 80 79 39 40 78 77 59 76 7 8 9 10 11 12 21 22 23 24 25 26 41 42 43 44 45 46>;
         };
+
         r_index_shift: r_index_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "R_INDEX_SHIFT";
@@ -137,6 +149,7 @@
             flavor = "hold-preferred";
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 37 48 49 50 51 52 53 54 55 56 57 68 69 70 71 72 73 74 75>;
         };
+
         thumb_shift: thumb_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "THUMB_SHIFT";
@@ -146,6 +159,7 @@
             tapping-term-ms = <300>;
             quick-tap-ms = <210>;
         };
+
         hm_left: hm_left {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_LEFT";
@@ -158,6 +172,7 @@
             global-quick-tap;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 40 41 42 43 44 45 46 47 58 60 61 62 63 64 65 66 67 77 78 79 80 81 82 83 76 59 39>;
         };
+
         hm_right: hm_right {
             compatible = "zmk,behavior-hold-tap";
             label = "HM_RIGHT";
@@ -345,11 +360,6 @@
             bindings = <&hm LS(LA(MINUS)) MINUS>;
             key-positions = <51 52>;
         };
-
-        comma_combo {
-            bindings = <&kp COMMA>;
-            key-positions = <63 64>;
-        };
     };
 
     macros {
@@ -359,6 +369,7 @@
             #binding-cells = <0>;
             bindings = <&kp LA(LEFT) &kp LA(RIGHT) &kp LS(LA(LEFT))>;
         };
+
         app_switcher: app_switcher {
             compatible = "zmk,behavior-macro";
             label = "APP_SWITCHER";
@@ -382,8 +393,8 @@
 &kp EQUAL              &kp N1     &kp N2            &kp N3           &kp N4                  &kp N5                &tog 1                                                                                                                                                                                                       &mo 3                            &kp N6  &kp N7                  &kp N8            &kp N9             &kp N0         &kp MINUS
 &kp TAB                &kp Q      &kp W             &kp E            &kp R                   &kp T                 &undo_redo_dance                                                                                                                                                                                             &hm LS(LA(SLASH)) LS(LG(SLASH))  &kp Y   &kp U                   &kp I             &kp O              &kp P          &kp BSLH
 &sk LS(LA(LG(LCTRL)))  &kp A      &hm_left LCTRL S  &hm_left LALT D  &l_index_shift LSHFT F  &kp G                 &app_switcher      &hm_gui LS(LA(LC(F1))) LG(LS(LA(LC(F1))))  &hm_gui LS(LA(LC(F2))) LS(LA(LC(LG(F2))))  &none  &none  &hm_gui LS(LA(LC(F6))) LS(LA(LC(LG(F6))))  &hm_gui LS(LA(LC(F5))) LS(LA(LC(LG(F5))))  &word_sel_shift_morph            &kp H   &r_index_shift RSHFT J  &hm_right RALT K  &hm_right RCTRL L  &kp SEMICOLON  &kp SQT
-&kp LSHFT              &kp Z      &hm LG(X) X       &hm LG(C) C      &hm LG(V) V             &hm_left LG(LA(V)) B  &none              &none                                      &hm_gui LS(LA(LC(F3))) LS(LA(LC(LG(F3))))  &none  &none  &hm_gui LS(LA(LC(F7))) LS(LC(LG(LA(F7))))  &none                                      &none                            &kp N   &kp M                   &kp UP            &hm COMMA PERIOD   &kp SLASH      &kp RSHFT
-&sl 4                  &kp GRAVE  &kp ENTER         &kp LEFT         &kp RIGHT                                     &hm_gui LGUI BSPC  &hm_layer 1 TAB                            &hm_gui LS(LA(LC(F4))) LG(LS(LA(LC(F4))))                &hm_gui LS(LA(LC(F8))) LS(LA(LC(LG(F8))))  &hm_layer 6 ENTER                          &hm_gui RGUI SPACE                       &kp LEFT                &kp DOWN          &kp RIGHT          &kp RBKT       &sl 4
+&kp LSHFT              &kp Z      &hm LG(X) X       &hm LG(C) C      &hm LG(V) V             &hm_left LG(LA(V)) B  &none              &none                                      &hm_gui LS(LA(LC(F3))) LS(LA(LC(LG(F3))))  &none  &none  &hm_gui LS(LA(LC(F7))) LS(LC(LG(LA(F7))))  &none                                      &none                            &kp N   &kp M                   &kp COMMA         &hm COMMA PERIOD   &kp SLASH      &kp RSHFT
+&sl 4                  &kp GRAVE  &kp ENTER         &kp LEFT         &kp RIGHT                                     &hm_gui LGUI BSPC  &hm_layer 1 TAB                            &hm_gui LS(LA(LC(F4))) LG(LS(LA(LC(F4))))                &hm_gui LS(LA(LC(F8))) LS(LA(LC(LG(F8))))  &hm_layer 6 ENTER                          &hm_gui RGUI SPACE                       &kp UP_ARROW            &kp DOWN          &kp LBKT           &kp RBKT       &sl 4
             >;
         };
 
@@ -439,11 +450,11 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans    &trans       &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans    &trans       &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans            &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_UP  &kp END           &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans          &trans    &kp PG_DN    &kp LEFT_BRACKET  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                 &trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PAGE_UP   &kp END    &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans          &trans    &kp PG_DN     &trans     &trans  &trans
             >;
         };
     };
