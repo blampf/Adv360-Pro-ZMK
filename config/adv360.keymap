@@ -358,7 +358,7 @@
 
         dashdash_combo {
             bindings = <&hm LS(LA(MINUS)) MINUS>;
-            key-positions = <51 52>;
+            key-positions = <17 18>;
         };
     };
 
