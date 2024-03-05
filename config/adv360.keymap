@@ -455,11 +455,11 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans        &trans         &trans  &trans                                                                 &kp C_VOLUME_UP  &trans  &trans        &trans         &trans         &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &kp LA(LEFT)  &kp UP_ARROW   &kp LA(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp LEFT      &kp DOWN       &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME      &trans         &kp END        &trans  &trans
-&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN               &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &kp PAGE_UP   &kp PAGE_DOWN  &kp LBKT       &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &trans                                                                 &kp C_VOLUME_UP  &trans  &trans        &kp LA(UP_ARROW)    &trans         &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &kp LA(LEFT)  &kp UP_ARROW        &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp LEFT      &kp DOWN            &kp RIGHT      &trans  &trans
+&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME      &kp LA(DOWN_ARROW)  &kp END        &trans  &trans
+&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN               &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &kp PAGE_UP   &kp PAGE_DOWN       &kp LBKT       &trans  &trans
             >;
         };
     };
