@@ -455,11 +455,11 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans        &trans         &trans  &trans                                                                 &kp C_VOLUME_UP  &trans  &trans    &trans        &trans     &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME  &kp PAGE_UP   &kp END    &trans  &trans
-&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN               &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &trans    &kp PG_DN     &kp LBKT   &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &trans                                                                 &kp C_VOLUME_UP  &trans  &trans       &trans         &trans     &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &kp HOME     &kp UP_ARROW   &kp END    &trans  &trans
+&trans  &trans  &trans  &trans        &trans         &trans  &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp LEFT     &kp DOWN       &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp PAGE_UP  &kp PAGE_DOWN  &trans     &trans  &trans
+&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN               &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &trans       &trans         &kp LBKT   &trans  &trans
             >;
         };
     };
