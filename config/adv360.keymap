@@ -356,11 +356,6 @@
             layers = <1>;
         };
 
-        dashdash_combo {
-            bindings = <&hm LS(LA(MINUS)) MINUS>;
-            key-positions = <17 18>;
-        };
-
         comma_combo {
             bindings = <&kp COMMA>;
             key-positions = <63 64>;
@@ -455,11 +450,11 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans        &trans         &trans         &trans                                                                 &kp C_VOLUME_UP  &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans         &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans        &trans         &trans         &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN  &kp LA(LG(V))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME      &kp LA(UP_ARROW)  &kp END        &trans  &trans
-&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN                      &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &kp LA(LEFT)  &kp LA(DOWN)      &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans        &trans                   &trans         &trans                                                                 &kp C_VOLUME_UP  &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans        &hm LS(LA(MINUS)) MINUS  &trans         &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &trans        &trans                   &trans         &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans        &trans            &trans         &trans  &trans
+&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN            &kp LA(LG(V))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME      &kp LA(UP_ARROW)  &kp END        &trans  &trans
+&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN                                &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &kp LA(LEFT)  &kp LA(DOWN)      &kp LA(RIGHT)  &trans  &trans
             >;
         };
     };
