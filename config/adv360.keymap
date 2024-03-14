@@ -393,8 +393,8 @@
 &kp EQUAL              &kp N1     &kp N2            &kp N3           &kp N4                  &kp N5  &tog 1                                                                                                                                                                                                       &mo 3                            &kp N6  &kp N7                  &kp N8            &kp N9                  &kp N0         &kp MINUS
 &kp TAB                &kp Q      &kp W             &kp E            &kp R                   &kp T   &app_switcher                                                                                                                                                                                                &hm LS(LA(SLASH)) LS(LG(SLASH))  &kp Y   &kp U                   &kp I             &kp O                   &kp P          &kp BSLH
 &sk LS(LA(LG(LCTRL)))  &kp A      &hm_left LCTRL S  &hm_left LALT D  &l_index_shift LSHFT F  &kp G   &undo_redo_dance   &hm_gui LS(LA(LC(F1))) LG(LS(LA(LC(F1))))  &hm_gui LS(LA(LC(F2))) LS(LA(LC(LG(F2))))  &none  &none  &hm_gui LS(LA(LC(F6))) LS(LA(LC(LG(F6))))  &hm_gui LS(LA(LC(F5))) LS(LA(LC(LG(F5))))  &word_sel_shift_morph            &kp H   &r_index_shift RSHFT J  &hm_right RALT K  &hm_right RCTRL L       &kp SEMICOLON  &kp SQT
-&kp LSHFT              &kp Z      &kp X             &kp C            &kp V                   &kp B   &none              &none                                      &hm_gui LS(LA(LC(F3))) LS(LA(LC(LG(F3))))  &none  &none  &hm_gui LS(LA(LC(F7))) LS(LC(LG(LA(F7))))  &none                                      &none                            &kp N   &kp M                   &kp UP_ARROW      &hm EXCLAMATION PERIOD  &kp SLASH      &kp RSHFT
-&sl 4                  &kp GRAVE  &kp ENTER         &kp LEFT         &kp RIGHT                       &hm_gui LGUI BSPC  &hm_layer 6 TAB                            &hm_gui LS(LA(LC(F4))) LG(LS(LA(LC(F4))))                &hm_gui LS(LA(LC(F8))) LS(LA(LC(LG(F8))))  &hm_layer 6 ENTER                          &hm_gui RGUI SPACE                       &kp LEFT                &kp DOWN          &kp RIGHT               &kp RBKT       &sl 4
+&kp LSHFT              &kp Z      &kp X             &kp C            &kp V                   &kp B   &none              &none                                      &hm_gui LS(LA(LC(F3))) LS(LA(LC(LG(F3))))  &none  &none  &hm_gui LS(LA(LC(F7))) LS(LC(LG(LA(F7))))  &none                                      &none                            &kp N   &kp M                   &kp COMMA         &hm EXCLAMATION PERIOD  &kp SLASH      &kp RSHFT
+&sl 4                  &kp GRAVE  &kp ENTER         &kp LEFT         &kp RIGHT                       &hm_gui LGUI BSPC  &hm_layer 6 TAB                            &hm_gui LS(LA(LC(F4))) LG(LS(LA(LC(F4))))                &hm_gui LS(LA(LC(F8))) LS(LA(LC(LG(F8))))  &hm_layer 6 ENTER                          &hm_gui RGUI SPACE                       &kp UP_ARROW            &kp DOWN          &kp LEFT_BRACKET        &kp RBKT       &sl 4
             >;
         };
 
@@ -450,11 +450,11 @@
 
         layer_nav {
             bindings = <
-&trans  &trans  &trans  &trans        &trans                   &trans         &trans                                                                 &kp C_VOLUME_UP  &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans        &hm LS(LA(MINUS)) MINUS  &trans         &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &trans        &trans                   &trans         &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans        &trans            &trans         &trans  &trans
-&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN            &kp LA(LG(V))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp HOME      &kp LA(UP_ARROW)  &kp END        &trans  &trans
-&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN                                &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &kp LA(LEFT)  &kp LA(DOWN)      &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans        &trans                   &trans         &trans                                                                 &kp C_VOLUME_UP  &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans        &hm LS(LA(MINUS)) MINUS  &trans         &kp LS(LA(LC(LG(R))))                                                  &kp C_VOL_DN     &trans  &kp HOME  &kp UP_ARROW  &kp END    &trans  &trans
+&trans  &trans  &trans  &trans        &trans                   &trans         &kp LS(LG(Z))          &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &kp PAGE_UP   &kp PAGE_DOWN            &kp LA(LG(V))  &trans                 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &kp UP_ARROW  &kp DOWN                                &hm_gui LGUI LA(BSPC)  &trans  &trans                  &trans  &trans  &trans                   &trans    &trans        &trans     &trans  &trans
             >;
         };
     };
