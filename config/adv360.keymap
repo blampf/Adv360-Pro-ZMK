@@ -204,7 +204,7 @@
 
         twoshft_caps {
             bindings = <&kp CAPS>;
-            key-positions = <48 67>;
+            key-positions = <32 43>;
         };
 
         moot_combo {
@@ -215,11 +215,6 @@
         onepass_combo {
             bindings = <&hm_gui LS(LG(NUMBER_1)) LG(GRAVE)>;
             key-positions = <74 77>;
-        };
-
-        index_caps_word {
-            bindings = <&caps_word>;
-            key-positions = <32 43>;
         };
 
         shift_alt_right {
